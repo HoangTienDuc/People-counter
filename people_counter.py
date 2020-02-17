@@ -115,6 +115,8 @@ def counter(filenameOpen, filenameSave):
             net.setInput(blob)
             detections = net.forward()
 
+            # print("detections: ", detections)
+
             # loop over the detections
             for i in np.arange(0, detections.shape[2]):
                 # extract the confidence (i.e., probability) associated
