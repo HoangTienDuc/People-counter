@@ -1,3 +1,8 @@
+### Install Dlib
+```bash
+conda install -c conda-forge dlib
+```
+
 ### PEOPLE COUNTER
 
 This is investigation prototype of application, which main goal is to count number of people that enter and leave some area
